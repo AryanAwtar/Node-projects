@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "axios": "^1.7.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "name": "node-projects",
+  "version": "1.0.0",
+  "description": "[What are Capstone Projects?](https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/37350282/?instructorPreviewMode=student_v4#overview)",
+  "main": "index.js",
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -14,7 +14,7 @@ app.listen(port, () => {
 app.get("/", async (req, res) => {
   try {
     const result = await axios.get(API_URL + "/Any");
-    res.render("index.ejs", { content: JSON.stringify(result.data) });
+    res.render("Jokes-APP/index.ejs", { content: JSON.stringify(result.data) });
   } catch (error) {
     res.status(404).send(error.message);
   }
